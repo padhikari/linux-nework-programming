@@ -1,4 +1,4 @@
-bin_PROGRAMS = client server client1 server1 getname getdate client2 server2 select server3
+bin_PROGRAMS = client server client1 server1 getname getdate client2 server2 select server3 getdate2
 client_SOURCES = client.c
 server_SOURCES = server.c
 client1_SOURCES = client1.c
@@ -9,4 +9,5 @@ client2_SOURCES = client2.c
 server2_SOURCES = server2.c
 select_SOURCES = select.c
 server3_SOURCES = server3.c
+getdate2_SOURCES = getdate2.c
 
