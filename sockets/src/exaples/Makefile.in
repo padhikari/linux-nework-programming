@@ -36,7 +36,7 @@ bin_PROGRAMS = client$(EXEEXT) server$(EXEEXT) client1$(EXEEXT) \
 	server1$(EXEEXT) getname$(EXEEXT) getdate$(EXEEXT) \
 	client2$(EXEEXT) server2$(EXEEXT) select$(EXEEXT) \
 	server3$(EXEEXT) getdate2$(EXEEXT)
-subdir = src
+subdir = src/exaples
 DIST_COMMON = $(srcdir)/Makefile.am $(srcdir)/Makefile.in
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
@@ -207,9 +207,9 @@ $(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__configure_deps)
 	      exit 1;; \
 	  esac; \
 	done; \
-	echo ' cd $(top_srcdir) && $(AUTOMAKE) --gnu src/Makefile'; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --gnu src/exaples/Makefile'; \
 	$(am__cd) $(top_srcdir) && \
-	  $(AUTOMAKE) --gnu src/Makefile
+	  $(AUTOMAKE) --gnu src/exaples/Makefile
 .PRECIOUS: Makefile
 Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 	@case '$?' in \
