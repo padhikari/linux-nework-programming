@@ -1,1 +1,1 @@
-SUBDIRS = examples
+SUBDIRS = exaples
