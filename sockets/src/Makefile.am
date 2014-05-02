@@ -1,1 +1,1 @@
-SUBDIRS = exaples
+SUBDIRS = exaples simple_server
