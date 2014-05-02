@@ -9,5 +9,6 @@ AC_CONFIG_FILES([
  src/exaples/Makefile
  src/simple_server/Makefile
  src/datagram_socket/Makefile
+ src/file_tranfer/Makefile
 ])
 AC_OUTPUT
