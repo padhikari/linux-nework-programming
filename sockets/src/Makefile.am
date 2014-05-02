@@ -1,1 +1,1 @@
-SUBDIRS = exaples simple_server
+SUBDIRS = exaples simple_server datagram_socket
