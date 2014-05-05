@@ -1,1 +1,1 @@
-SUBDIRS = exaples simple_server datagram_socket file_tranfer
+SUBDIRS = exaples simple_server datagram_socket file_tranfer authentication
