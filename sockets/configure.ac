@@ -10,5 +10,6 @@ AC_CONFIG_FILES([
  src/simple_server/Makefile
  src/datagram_socket/Makefile
  src/file_tranfer/Makefile
+ src/authentication/Makefile
 ])
 AC_OUTPUT
