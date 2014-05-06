@@ -4,6 +4,7 @@
 #include<arpa/inet.h>
 #include<string.h>
 #include<stdio.h>
+#include<stdlib.h>
 #include<sys/stat.h>
 #include<fcntl.h>
 
@@ -60,7 +61,7 @@ int main(int argc, char* argv[]){
 	shutdown(sockd, SHUT_WR);	
 	
 	//open up a handle to our destination file to receive the contents from the server
-	fd = open(argv[3], O_WRONLY | O_CREAT | O_APPEND);
+	fd = open(argv[3],O_RDWR, O_WRONLY | O_CREAT | O_APPEND);
 	
 	if(fd == -1){
 		fprintf(stderr, "Could not open destination file, using stdout.\n");
