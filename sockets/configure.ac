@@ -12,5 +12,6 @@ AC_CONFIG_FILES([
  src/file_tranfer/Makefile
  src/authentication/Makefile
  src/multiple_client/Makefile
+ src/daemon/Makefile
 ])
 AC_OUTPUT
